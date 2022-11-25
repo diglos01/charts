@@ -23,6 +23,11 @@ agent:
 
 nodeAnalyzer:
   enabled: true
+  nodeAnalyzer:
+    apiEndpoint: ""
+  secure:
+    vulnerabilityManagement:
+      newEngineOnly: true
 
 rapidResponse:
   enabled: false
